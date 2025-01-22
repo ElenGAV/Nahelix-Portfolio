@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="vieport" content="width=device-width, initial-sacle=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nahelix Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+   
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Nahelix</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#environments" onclick="seleccionar()">Environments</a></li>
+                    <li><a href="#otrosproyectos" onclick="seleccionar()">Otros proyectos</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>         
+        </header>
+     </div>
+    <!-- SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            
+                    <h1>¡Hola!</h1>
+                    <h2>Soy Nahelix</h2>
+                    <h3>Me llamo Elena, pero Nahelix es mi nombre artístico. Soy diseñadora e ilustradora. En mi tiempo libre me encanta dibujar e inventarme personajillos y universos. Aquí podrás conocerme un poco más.</h3>
+                    <div class="redes">
+                <a href="mailto:egarciabadillo@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.instagram.com/nahelix/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.threads.net/@nahelix" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                <a href="https://www.artstation.com/nahelix" target="_blank"><i class="fa-brands fa-artstation"></i></a>
+                    </div>
+        </div>
+    </section>
+    <!-- SECCION SKILLS -->
+     <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <h3>Software</h3>
+            <div class="contenedor-software">
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M38.09 129.741H56.4469C56.9369 129.741 57.3671 129.414 57.4984 128.942L62.852 109.642H83.6351L89.4433 128.964C89.582 129.425 90.0065 129.741 90.4882 129.741H109.541C109.545 129.741 109.548 129.741 109.55 129.741C110.153 129.741 110.641 129.253 110.641 128.65C110.641 128.489 110.607 128.337 110.544 128.199L86.302 50.022C86.1607 49.5657 85.7379 49.2542 85.2598 49.2542H62.0235C61.5436 49.2542 61.1204 49.5674 60.9803 50.0259L37.0473 128.331C36.947 128.662 37.008 129.021 37.2135 129.299C37.4195 129.577 37.744 129.741 38.09 129.741ZM80.4332 94.2155H66.0172L70.277 78.9884C71.0506 76.2446 71.7818 72.9978 72.489 69.8579C72.6508 69.1368 72.8101 68.4291 72.968 67.7372C73.9038 71.4988 74.933 75.5627 75.9648 78.9997L80.4332 94.2155Z" fill="#F46139"/>
+                        <path d="M118.71 70.7476C118.107 70.7476 117.619 71.2358 117.619 71.8383V128.65C117.619 129.253 118.107 129.741 118.71 129.741H136.369C136.972 129.741 137.46 129.253 137.46 128.65V71.8383C137.46 71.2358 136.972 70.7476 136.369 70.7476H118.71Z" fill="#F46139"/>
+                        <path d="M127.423 65.9572C133.576 65.9572 138.041 61.7851 138.041 56.0122C137.907 50.1172 133.588 46 127.539 46C124.451 46 121.709 47.0654 119.819 49.0007C118.044 50.8157 117.099 53.3138 117.154 56.0366C117.097 58.6731 118.045 61.1263 119.823 62.9473C121.719 64.8883 124.418 65.9572 127.423 65.9572Z" fill="#F46139"/>
+                    </svg>
+                </div>
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M104.752 70.8347C109.239 70.8347 113.542 69.0524 116.714 65.8797C119.887 62.7071 121.669 58.4041 121.669 53.9174C121.669 49.4306 119.887 45.1276 116.714 41.955C113.542 38.7824 109.239 37 104.752 37H70.9174C66.4306 37 62.1276 38.7824 58.955 41.955C55.7824 45.1276 54 49.4306 54 53.9174C54 58.4041 55.7824 62.7071 58.955 65.8797C62.1276 69.0524 66.4306 70.8347 70.9174 70.8347C66.4306 70.8347 62.1276 72.6171 58.955 75.7897C55.7824 78.9623 54 83.2653 54 87.7521C54 92.2389 55.7824 96.5419 58.955 99.7145C62.1276 102.887 66.4306 104.669 70.9174 104.669C67.5714 104.669 64.3006 105.662 61.5186 107.521C58.7365 109.379 56.5682 112.022 55.2878 115.113C54.0073 118.204 53.6723 121.606 54.3251 124.887C54.9778 128.169 56.5891 131.183 58.955 133.549C61.3209 135.915 64.3353 137.526 67.617 138.179C70.8986 138.832 74.3001 138.497 77.3914 137.216C80.4826 135.936 83.1247 133.768 84.9836 130.986C86.8426 128.204 87.8347 124.933 87.8347 121.587V70.8347H104.752Z" fill="#F46139"/>
+                        <path d="M104.752 104.669C114.096 104.669 121.67 97.0953 121.67 87.7521C121.67 78.4089 114.096 70.8347 104.752 70.8347C95.4091 70.8347 87.835 78.4089 87.835 87.7521C87.835 97.0953 95.4091 104.669 104.752 104.669Z" fill="#F46139"/>
+                    </svg>    
+                </div>
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M36.9603 37C36.5214 36.9979 36.0879 37.0971 35.694 37.2899C35.3002 37.4826 34.9566 37.7636 34.6905 38.1108C33.0925 40.1337 34.5316 42.1655 36.3338 43.8091C37.269 44.6625 44.3691 51.9096 51.896 59.7346C54.266 56.4277 57.033 53.4209 60.1356 50.7808C50.6476 44.9244 41.6907 39.2848 40.6329 38.5352C39.4526 37.6954 38.1633 37.0091 36.9603 37ZM60.1356 50.7808C68.525 55.9643 77.3229 61.3105 81.4405 63.6042C88.1093 67.3113 98.5007 75.7233 100.017 83.6251C102.446 85.7292 109.923 92.2764 111.802 94.5205C114.971 93.5678 118.693 95.1211 121.154 99.5777C125.085 106.725 122.184 116.497 112.22 122.1C111.787 122.518 111.339 122.92 110.876 123.306L112.22 122.1C117.395 115.472 108.978 111.083 106.886 104.653C106.493 103.522 106.323 102.326 106.386 101.131C103.967 99.8577 96.8074 94.5747 93.6977 92.2584C85.5217 92.9808 74.5991 84.2527 69.4102 78.3512C66.2324 74.73 58.8781 66.9862 51.896 59.7346C45.8659 68.1663 42.6201 78.2538 42.6077 88.601C42.6077 98.4709 45.5503 108.119 51.0634 116.326C56.5765 124.532 64.4124 130.928 73.5803 134.706C82.7482 138.483 92.8363 139.471 102.569 137.545C112.302 135.62 121.241 130.867 128.258 123.888C135.275 116.909 140.054 108.017 141.99 98.3366C143.925 88.6563 142.932 78.6225 139.134 69.5039C135.337 60.3852 128.906 52.5914 120.655 47.108C112.404 41.6246 102.704 38.6978 92.7807 38.6978C80.7958 38.7159 69.215 43.0054 60.1356 50.7808ZM99.6765 84.8804C97.3385 85.4493 95.2821 88.6326 94.6011 90.7774C94.4286 91.2966 94.4195 92.1455 94.9007 92.3216C98.5416 94.9947 101.965 97.5955 105.796 99.9976C106.531 98.2231 109.183 95.6494 110.772 94.5793L99.6765 84.8804ZM47.3336 92.281C51.0198 100.851 73.6548 124.656 102.083 104.45C102.063 105.548 102.238 106.641 102.6 107.678C104.688 114.09 113.314 118.637 108.22 125.243C98.528 131.402 85.5217 130.666 76.4922 127.627C60.3399 122.19 49.6488 108.066 47.3336 92.281ZM109.9 95.4417C109.798 95.5102 109.699 95.5841 109.605 95.6629C109.587 95.6765 109.569 95.6991 109.555 95.6991C109.569 95.6855 109.591 95.6629 109.605 95.6629C109.714 95.5952 109.8 95.5094 109.9 95.4462V95.4417Z" fill="#F46139"/>
+                    </svg>
+                </div>
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M146.433 92.9912C145.748 88.1625 144.078 83.5833 141.468 79.3822C139.192 75.7157 136.272 72.4548 132.786 69.6833L132.796 69.6746L96.1876 41.5134C96.1612 41.4901 96.1337 41.4682 96.1051 41.4477C94.888 40.5138 93.2401 40 91.4668 40C89.6912 40 87.9788 40.515 86.6477 41.4506C85.2165 42.452 84.3984 43.7807 84.3412 45.1949C84.2889 46.5144 84.9173 47.784 86.1155 48.7737C88.4715 50.6356 90.8223 52.5381 93.1763 54.4428C95.4609 56.2922 97.8149 58.1967 100.157 60.0509L55.3185 60.0204C50.1907 60.0204 46.6992 62.4322 45.9809 66.4698C45.6653 68.2384 46.2222 70.183 47.4672 71.6723C48.7881 73.2511 50.7058 74.122 52.867 74.122L56.2852 74.1243C61.0074 74.1243 65.7503 74.1126 70.4869 74.1012L75.0038 74.0907L34.3087 104.245L34.1471 104.364C31.874 106.109 30.3859 108.555 30.0648 111.075C29.8215 112.985 30.2662 114.729 31.3514 116.123C32.6448 117.784 34.6643 118.698 37.0382 118.698C39.3702 118.698 41.7498 117.813 43.7416 116.201L65.7176 98.1881C65.6237 99.0677 65.5097 100.358 65.5227 101.295C65.5474 102.778 66.0227 105.753 66.7752 108.169C68.3301 113.133 70.9492 117.675 74.5594 121.664C78.3158 125.814 82.8908 129.105 88.1564 131.442C93.7232 133.908 99.7075 135.16 105.944 135.16H106.001C112.257 135.145 118.261 133.873 123.846 131.379C129.12 129.014 133.693 125.71 137.435 121.561C141.041 117.551 143.656 113.002 145.208 108.041C145.976 105.586 146.467 103.052 146.674 100.488C146.866 98.0089 146.783 95.4867 146.433 92.9912ZM106.4 116.785C92.656 116.785 81.511 106.8 81.511 94.4817C81.511 82.1647 92.6562 72.1793 106.4 72.1793C120.143 72.1793 131.287 82.1647 131.287 94.4817C131.288 106.8 120.143 116.785 106.4 116.785ZM120.752 92.5218C120.955 96.1983 119.489 99.612 116.914 102.139C114.295 104.714 110.558 106.331 106.379 106.331C102.201 106.331 98.4632 104.714 95.8432 102.139C93.2696 99.612 91.8064 96.1987 92.0079 92.5247C92.2054 88.9535 93.9446 85.8011 96.5644 83.5691C99.1405 81.3743 102.6 80.0354 106.378 80.0354C110.157 80.0354 113.616 81.3748 116.192 83.5691C118.813 85.8011 120.553 88.9512 120.752 92.5218Z" fill="#F46139"/>
+                    </svg>
+                </div>
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M51.402 47.9603C50.95 47.9603 50.5498 48.2523 50.4119 48.6827L26.0099 124.835C25.9085 125.151 25.9644 125.497 26.1601 125.765C26.3558 126.034 26.6679 126.192 27 126.192H41.3478C41.8057 126.192 42.2096 125.893 42.3427 125.455L48.6726 104.613H71.3222L77.981 125.469C78.1186 125.9 78.5191 126.192 78.9714 126.192H93.8887C94.2215 126.192 94.5343 126.033 94.7299 125.764C94.9255 125.494 94.9804 125.148 94.8775 124.831L70.1306 48.6787C69.9914 48.2503 69.5922 47.9603 69.1417 47.9603H51.402ZM57.0283 74.6201L57.0283 74.6201L57.032 74.608C57.929 71.6163 58.7355 68.2526 59.4999 65.065C59.593 64.6766 59.6855 64.2909 59.7775 63.9087C60.6628 67.4073 61.6333 71.1725 62.7286 74.6239L62.7291 74.6256L68.2843 92.0263H51.577L57.0283 74.6201ZM149.14 102.578C149.643 102.578 150.073 102.219 150.163 101.725C150.402 100.415 150.632 98.3174 150.632 95.6644C150.632 89.4797 149.162 82.5519 145.313 77.1394C141.428 71.6765 135.177 67.8465 125.866 67.8465C116.741 67.8465 109.724 71.5739 105.008 77.3072C100.311 83.0173 97.9353 90.6632 97.9353 98.4881C97.9353 107.123 100.634 114.385 105.724 119.49C110.814 124.596 118.189 127.437 127.333 127.437C135.382 127.437 142.066 125.826 146.932 123.859C147.399 123.67 147.664 123.173 147.559 122.679L145.526 113.075C145.463 112.778 145.274 112.523 145.007 112.378C144.741 112.232 144.424 112.21 144.141 112.318C140.093 113.85 135.587 114.734 129.255 114.734C125 114.734 121.089 113.696 118.226 111.553C115.621 109.602 113.809 106.682 113.416 102.578H149.14ZM113.497 90.7818C113.903 88.3805 114.867 85.7406 116.505 83.6164C118.383 81.1818 121.145 79.4175 125.075 79.4175C129.328 79.4175 131.886 81.3057 133.416 83.746C134.772 85.9089 135.342 88.5497 135.437 90.7818H113.497Z" fill="#F46139" stroke="#F46139" stroke-width="2.07943" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M45.0627 128.496H62.3814C62.9684 128.496 63.4441 128.02 63.4441 127.433V51.138C63.4441 50.551 62.9684 50.0753 62.3814 50.0753H45.0627C44.4757 50.0753 44 50.551 44 51.138V127.433C44 128.02 44.4757 128.496 45.0627 128.496Z" fill="#F46139"/>
+                        <path d="M96.9035 129.741C103.812 129.741 109.885 126.913 113.651 122.059L114.183 127.536C114.236 128.081 114.694 128.496 115.241 128.496H130.522C130.525 128.496 130.529 128.496 130.53 128.496C131.117 128.496 131.593 128.02 131.593 127.433C131.593 127.365 131.587 127.299 131.575 127.235C131.354 123.509 131.133 117.064 131.133 110.906V47.0627C131.133 46.4757 130.657 46 130.07 46H112.864C112.277 46 111.801 46.4757 111.801 47.0627V74.392C108.725 71.4283 103.868 69.7714 98.0351 69.7714C91.4463 69.7714 85.2703 72.3342 80.6442 76.9884C75.0501 82.6169 72.1243 90.6679 72.1825 100.265C72.1825 117.345 82.5787 129.741 96.9035 129.741ZM102.45 113.919C95.8434 113.919 91.7396 108.47 91.7396 99.6996C91.7396 92.9315 94.5749 85.0275 102.563 85.0275C107.624 85.0275 110.738 88.8409 111.59 92.6356C111.693 93.4739 111.801 94.6539 111.801 95.5105V102.755C111.801 104.272 111.677 105.373 111.386 106.436C111.38 106.457 111.375 106.478 111.37 106.499C110.442 110.937 106.857 113.919 102.45 113.919Z" fill="#F46139"/>
+                    </svg>
+                </div>
+                <div class="software">
+                    <svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M54.1968 127.447V100.183C55.6588 100.325 57.3831 100.399 59.2651 100.399C70.7346 100.399 80.0081 97.3896 86.0864 91.6932C91.0654 86.9885 93.8086 79.9793 93.8086 71.9574C93.8086 64.1661 90.5325 57.1213 84.8258 52.633C79.2157 48.17 70.9718 46 59.6229 46C49.7918 46 41.4845 46.5625 34.9296 47.6723C34.3927 47.7625 34 48.2255 34 48.7671V127.447C34 128.061 34.4999 128.558 35.1168 128.558H53.08C53.6969 128.558 54.1968 128.061 54.1968 127.447ZM54.1968 84.0553V62.3138C55.2934 62.1046 57.3532 61.8278 60.5734 61.8278C68.8602 61.8278 73.6127 65.6923 73.6127 72.4301C73.6127 79.8837 68.2054 84.3343 59.1462 84.3343C56.973 84.3343 55.4252 84.249 54.1968 84.0553Z" fill="#F46139"/>
+                        <path d="M126.36 91.0224C118.959 88.4463 117.711 87.2196 117.711 85.4451C117.711 82.2936 121.333 81.8231 123.493 81.8231C128.08 81.8231 132.865 83.5346 135.568 84.9999C135.871 85.1638 136.231 85.1798 136.548 85.0434C136.863 84.9066 137.098 84.6329 137.184 84.3014L140.396 71.8792C140.527 71.3723 140.284 70.8431 139.814 70.6094C136.479 68.9513 130.285 67.179 122.898 67.179C108.302 67.179 98.1086 75.4203 98.1086 87.2014C98.0099 92.9493 100.93 100.819 115.407 105.666C122.439 107.997 123.209 109.209 123.209 111.238C123.209 112.163 123.209 114.978 116.594 114.978C111.638 114.978 104.947 112.789 101.59 110.761C101.285 110.578 100.913 110.549 100.584 110.684C100.256 110.819 100.012 111.101 99.9258 111.444L96.7145 124.341C96.5921 124.833 96.8199 125.344 97.2675 125.585C102.18 128.226 109.225 129.741 116.594 129.741C132.838 129.741 142.929 122.152 142.929 109.922C142.8 100.729 137.688 94.8993 126.36 91.0224Z" fill="#F46139"/>
+                    </svg>
+                </div> 
+            </div>  
+            <!--<h3>Habilidades profesionales</h3>
+            <div class="fila">
+                <div class="col">
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <h3>Idiomas</h3>
+            <div class="col">
+                    <div class="habilidad">
+                        <span>Español</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Nativo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Inglés</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>C1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Alemán</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>Inicial</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+     </section>
+    <!-- SECCION ENVS-->
+     <section id="environments" class="environments">
+        <div class="contenido-seccion">
+            <h2>Environments</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="IMÁGENES/ENV_NAHELIX_1.png" alt="">
+                    <div class="overlay">
+                        <h3>Pneuma nº1</h3>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ENV_NAHELIX_2.png" alt="">
+                    <div class="overlay">
+                        <h3>Pneuma nº2</h3>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ENV_NAHELIX_3.png" alt="">
+                    <div class="overlay">
+                        <h3>Pneuma nº3</h3>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ENV_NAHELIX_4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>La cascada</h3>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ENV_NAHELIX_5.png" alt="">
+                    <div class="overlay">
+                        <h3>Paraje</h3>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ENV_NAHELIX_6.png" alt="">
+                    <div class="overlay">
+                        <h3>El cuento</h3>
+                    </div> 
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- SECCION OTROS PROYECTOS-->
+    <section id="otrosproyectos" class="otros-proyectos">
+        <div class="contenido-seccion">
+            <h2>Otros proyectos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="IMÁGENES/ILUSTRACION_NAHELIX_1.png" alt="">
+                    <div class="overlay">
+                        <h3>Darcy</h3>
+                        <p>Fanart</p>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ILUSTRACION_NAHELIX_2.png" alt="">
+                    <div class="overlay">
+                        <h3>VI</h3>
+                        <p>Fanart</p>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ILUSTRACION_NAHELIX_3.png" alt="">
+                    <div class="overlay">
+                        <h3>En el reflejo de tu hermano está tu destino</h3>
+                        <p>Obra para el "Conversario Temporal"</p>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ILUSTRACION_NAHELIX_4.png" alt="">
+                    <div class="overlay">
+                        <h3>Awakening</h3>
+                        <p>Comisión particular</p>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ILUSTRACION_NAHELIX_5.png" alt="">
+                    <div class="overlay">
+                        <h3>Batalla fraternal</h3>
+                        <p>Obra para el "Conversario Temporal"</p>
+                    </div> 
+                </div>
+                <div class="proyecto">
+                    <img src="IMÁGENES/ILUSTRACION_NAHELIX_6.png" alt="">
+                    <div class="overlay">
+                        <h3>Dark Souls</h3>
+                        <p>Fanart, comisión particular</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- SECCION SOBRE MI-->
+     <section id="sobremi" class="sobre-mi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <div class="tabla">
+                <div class="retrato">
+                    <img src="IMÁGENES/SOBREMI.jpg" alt="">
+                    <div class="overlay">
+                        <h3>¡Soy yo!</h3>
+                    </div>
+                </div>
+                <div class="retrato">
+                    <p>Estoy graduada en Bellas Artes con mención en Artes visuales y Diseño.
+                    Me apasiona el diseño gráfico y la pintura digital: siempre que tengo un ratito libre no dudo en ponerme a dibujar.
+                    También he de admitir que me vuelven un poco loca las películas y series de animación, especialmente cuando lo se ciñe a una única tecnica, o tratan de dar un toque más humano: ¡me fijo en cada detalle!</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- SECCION CONTACTO-->
+     <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div>
+                <button>
+                    <a href="mailto:egaciabadillo@gmail.com">egarciabadillo@gmail.com
+                    <i class="fa-regular fa-envelope"></i>
+                    <span class="overlay"></span></a>
+                </button>
+            </div>
+            <div class="redes">
+                <a href="https://www.instagram.com/nahelix/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.threads.net/@nahelix" target="_blank"><i class="fa-brands fa-threads"></i></a>
+                <a href="https://www.artstation.com/nahelix" target="_blank"><i class="fa-brands fa-artstation"></i></a>
+            </div>
+                
+            
+        </div>
+     </section>
+    <!-- FOOTER -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+            
+        </a>
+        <h2>Nahelix portfolio 2025</h2>
+     </footer>
+     <!--<section id="footer" class="footer">
+        <h2>Nahelix portfolio 2025</h2>
+     </section>-->
+     <script src="script.js"></script>
+</body>
+</html>
