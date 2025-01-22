@@ -59,7 +59,7 @@ padding: 4px 8px;
 border-radius: 4px;
 cursor: pointer;
 display: none;
-font-size: 2rem;
+font-size: 3rem;
 }
 
 /* SECCION INICIO */
@@ -93,7 +93,7 @@ font-size: 2rem;
 .inicio .contenido-banner h3{
     margin-top: 20px;
     color: #31111D;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 200;
 }
 .inicio .contenido-banner .redes{
@@ -112,7 +112,7 @@ font-size: 2rem;
     line-height: 46px;
     text-align: center;
     margin: 16px;
-    font-size: 1.5rem; 
+    font-size: 2rem; 
 }
 .inicio .contenido-banner .redes a:hover{
     background-color: #F46139;
@@ -389,7 +389,7 @@ font-size: 2rem;
     margin: auto;
 }
 .sobre-mi h2{
-    font-size: 3rem;
+    font-size: 4rem;
     color: #F46139;
     text-align: center;
     padding-bottom: 3rem;
