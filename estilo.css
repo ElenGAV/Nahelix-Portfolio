@@ -59,7 +59,7 @@ padding: 4px 8px;
 border-radius: 4px;
 cursor: pointer;
 display: none;
-font-size: 2em;
+font-size: 1.5rem;
 }
 
 /* SECCION INICIO */
@@ -75,7 +75,7 @@ font-size: 2em;
 }
 .inicio .contenido-banner{
     display: block;
-    padding: min(1em, 10%);
+    padding: min(1rem, 10%);
     max-width: 400px;
     margin-left: min(40vh, 15%);
     background-color: transparent;
@@ -84,16 +84,16 @@ font-size: 2em;
 }  
 .inicio .contenido-banner h1{
     color: #F46139;
-    font-size: 4em;
+    font-size: 4rem;
 }
 .inicio .contenido-banner h2{
     color: #F46139;
-    font-size: 4em;
+    font-size: 4rem;
 }
 .inicio .contenido-banner h3{
     margin-top: 20px;
     color: #31111D;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 200;
 }
 .inicio .contenido-banner .redes{
@@ -112,7 +112,7 @@ font-size: 2em;
     line-height: 46px;
     text-align: center;
     margin: 16px;
-    font-size: 1.5em; 
+    font-size: 1.5rem; 
 }
 .inicio .contenido-banner .redes a:hover{
     background-color: #F46139;
@@ -147,7 +147,7 @@ font-size: 2em;
     display: inline-block;
     flex-wrap: wrap;
     max-width: 800px;
-    padding: 5em;
+    padding: 5rem;
     text-align: center;
    
 }
@@ -172,7 +172,7 @@ font-size: 2em;
 .skills .col{
     display: block;
     max-width: 1100px;
-    margin:  1em;    
+    margin:  1rem;    
 }
 .skills .col .habilidad{
     padding-bottom: 20px;   
@@ -210,7 +210,7 @@ font-size: 2em;
     text-align: center;
     top: -17px;
     right: -15;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: 200;
 }
 
@@ -392,7 +392,7 @@ font-size: 2em;
     font-size: 48px;
     color: #F46139;
     text-align: center;
-    padding-bottom: 3em;
+    padding-bottom: 3rem;
 }
 .sobre-mi .contenido-seccion .tabla{
     display: flex;
@@ -547,7 +547,7 @@ footer .arriba{
     top: -25px;
     border-radius: 50%;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 footer .arriba:hover{
     background-color: #fff;
@@ -580,8 +580,6 @@ footer .arriba:hover{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
-}
-@media screen and (max-width:1100px){
     .environments .galeria{
         display: block;
         width: 100%;
@@ -613,3 +611,4 @@ footer .arriba:hover{
         width: 100%;
     }
 }
+
