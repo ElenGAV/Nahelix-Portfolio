@@ -27,7 +27,7 @@ html{
     padding: 24px 24px;
 }
 .contenedor-header header .logo a{
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 600;  
   color: #31111D;
   text-decoration: none;
@@ -41,7 +41,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    font-size: 14px;
+    font-size: clamp(0.6rem, 0.8rem, 1rem);
     font-weight: 600;
     color: #fff;
     margin: 0 32px;
@@ -53,13 +53,12 @@ html{
     color: #F46139;
 }
 .nav-responsive{
-background-color:#31111D;
-color: #fff;
+color: #31111D;
 padding: 4px 8px;
 border-radius: 4px;
 cursor: pointer;
 display: none;
-font-size: 3rem;
+font-size: 1.5rem;
 }
 
 /* SECCION INICIO */
@@ -70,7 +69,7 @@ font-size: 3rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    padding-top: 200px;
+    padding-top: 250px;
     padding-bottom: 200px;
 }
 .inicio .contenido-banner{
@@ -84,16 +83,16 @@ font-size: 3rem;
 }  
 .inicio .contenido-banner h1{
     color: #F46139;
-    font-size: 64px;
+    font-size: clamp(1.1rem, 4rem, 5rem );
 }
 .inicio .contenido-banner h2{
     color: #F46139;
-    font-size: 64px;
+    font-size: clamp(1.1rem, 4rem, 5rem ) ;
 }
 .inicio .contenido-banner h3{
     margin-top: 20px;
     color: #31111D;
-    font-size: 16px;
+    font-size: clamp(0.8rem, 1rem, 1.5rem);
     font-weight: 200;
 }
 .inicio .contenido-banner .redes{
@@ -112,7 +111,7 @@ font-size: 3rem;
     line-height: 46px;
     text-align: center;
     margin: 16px;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
 }
 .inicio .contenido-banner .redes a:hover{
     background-color: #F46139;
@@ -389,7 +388,7 @@ font-size: 3rem;
     margin: auto;
 }
 .sobre-mi h2{
-    font-size: 4rem;
+    font-size: 48px;
     color: #F46139;
     text-align: center;
     padding-bottom: 3rem;
@@ -397,7 +396,8 @@ font-size: 3rem;
 .sobre-mi .contenido-seccion .tabla{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;   
+    justify-content: space-around; 
+    font-size: clamp(1rem, 1.2rem, 1.5rem);  
 }
 .sobre-mi .contenido-seccion .tabla .retrato{
     position: relative;
@@ -479,7 +479,7 @@ font-size: 3rem;
 }
 .contacto button a{
     
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #31111D;
     text-decoration: none;
@@ -499,7 +499,10 @@ font-size: 3rem;
     width: 100%;
 }
 .contacto .contenido-seccion .redes{
-    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    
 }
 .contacto .contenido-seccion .redes a{
     color: #fff;
@@ -507,12 +510,12 @@ font-size: 3rem;
     text-decoration: none;
     border: 2px solid #fff;
     border-radius: 100%;
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
     text-align: center;
-    margin: 16px;
-    font-size: 24px;  
+    margin: 2rem;
+    font-size: 2rem;  
 }
 .contacto .contenido-seccion .redes a:hover{
     background-color: #fff;
@@ -530,7 +533,7 @@ footer{
 }
 
 footer h2{
-    font-size: 16px;
+    font-size: clamp(0.8rem, 1rem, 2rem);
     font-weight: 100;
     color: #fff;
     text-align: center;  
@@ -547,7 +550,7 @@ footer .arriba{
     top: -25px;
     border-radius: 50%;
     line-height: 50px;
-    font-size: 1rem;
+    font-size: clamp(0.8rem 1rem, 2rem);
 }
 footer .arriba:hover{
     background-color: #fff;
